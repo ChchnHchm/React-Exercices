@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "poppins","sans-serif";
+  box-sizing: border-box;
+}
+
+#root{
+  height: 100vh;
+  width: 100%;
+}
+header{
+  height: 15vh;
+  width: 100%;
+  padding: 0 8%;
+  
+  position: relative;
+}
+header > p {
+  padding: 1%;
+  text-align: center;
+  line-height: 100px;
+  font: small-caps bold 24px/1 sans-serif;
+}
+
+.FAQ{
+  background-color: rgb(10, 27, 184);
+  max-width: 600px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+.FAQ > p {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: white;
+  
+}
+
+.Accordion{
+  background: aliceblue;
+  margin-top: 10%;
+
+}
+
+.QuestionButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.AccordionButton{
+  background-color: rgba(0, 0, 255, 0.5);
+  border-color: blue;
+  margin-right: 20%;
+  height: 1%;
+  margin-top: 5%;
+}
+
+.Question{
+
+  line-height: 100px;
+  margin-left: 20%;
+}
+
+.Response{
+  
+  margin-left: 20%;
+}
