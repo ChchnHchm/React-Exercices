@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+header{
+  height: 15vh;
+  width: 100%;
+  padding: 0 2%;
+  
+  position: relative;
+}
+header > p {
+  padding: 1%;
+  text-align: center;
+  line-height: 100px;
+  font: small-caps bold 24px/1 sans-serif;
+}
+
+
+.search-form {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-form input,
+.search-form button {
+  width: 280px;
+}
+
+.search-form input,
+.search-form button {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.search-form input {
+  border: 1px solid grey;
+  outline: none;
+}
+
+.search-form button {
+  margin-left: 10px;
+  background-color: chartreuse;
+  border: 1px solid chartreuse;
+}
+
+.User {
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
